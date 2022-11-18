@@ -9,11 +9,12 @@ const urlParams = new URLSearchParams(valores);
 
 //Accedemos a los valores
 var IdCat = urlParams.get('cat');
+console.log(IdCat);
 var categoria = categories.filter(x => x.id === IdCat);
-
+console.log(categoria);
 //canvi imatge de fons canviant la propietat del CSS
 let element = document.getElementById('cos');
-element.style.backgroundImage = `url(img/${categoria[0].img}`;
+element.style.backgroundImage = `url('img/${categoria[0].img}'`;
 
 
 const titolCat = document.getElementById('titolCap');
