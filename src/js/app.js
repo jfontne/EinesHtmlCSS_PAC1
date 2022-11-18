@@ -9,7 +9,7 @@ categories.forEach(categoria => {
   slide.className = "swiper-slide";
 
   let link = document.createElement('a');
-  link.href = `categoria.html?cat=${categoria.id}`;
+  link.href = `./categoria.html?cat=${categoria.id}`;
   let img = document.createElement('img');
   img.src = `img/slide/${categoria.img}`;
   link.append(img);

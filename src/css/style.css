@@ -66,7 +66,7 @@ main{
 
 /*swipper*/
 .swiper {
-    max-height: 50vh;
+    height: 50vh;
   
   }
 .swiper-button-next,
@@ -208,7 +208,7 @@ footer div{
         margin-bottom: 150px;
     }
     .swiper {
-        max-height: 70vh;
+        height: 100vh;
       
       }
       .swiper-button-next,
