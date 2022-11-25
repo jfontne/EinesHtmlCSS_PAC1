@@ -38,6 +38,19 @@
         "wikipedia": "https://en.wikipedia.org/wiki/Sara_(Fleetwood_Mac_song)"
     },
     {   "id": "4",
+        "titulo": "Children",
+        "álbum": "Dreams",
+        "año": "1996",
+        "grupo": "Robert Miles",
+        "descripcion": "Que més dir sobre aquesta balada, indispensable.",
+        "webGrupo": "https://level42.com/" ,
+        "creditos": "Roberto Concina",
+        "categoria": ["6","2","3"],
+        "video": "https://www.youtube.com/embed/DvyCbevQbtI",
+        "wikipedia": "https://es.wikipedia.org/wiki/Children_(canci%C3%B3n)",
+        "popularitat":"5"
+    },
+    {   "id": "5",
         "titulo": "Fresh",
         "álbum": "Emergency",
         "año": "1984",
@@ -50,7 +63,7 @@
         "wikipedia": "https://es.wikipedia.org/wiki/Fresh_(canci%C3%B3n_de_Kool_%26_the_Gang)",
         "popularitat":"5"
     },
-    {   "id": "5",
+    {   "id": "6",
         "titulo": "Stayin' Alive",
         "álbum": "Saturday Night Fever",
         "año": "1977",
@@ -63,7 +76,7 @@
         "wikipedia": "https://es.wikipedia.org/wiki/Stayin%27_Alive",
         "popularitat":"5"
     },
-    {   "id": "6",
+    {   "id": "7",
         "titulo": "Enjoy The Silence",
         "álbum": "Violator",
         "año": "1989",
@@ -76,7 +89,7 @@
         "wikipedia": "https://es.wikipedia.org/wiki/Enjoy_the_Silence",
         "popularitat":"5"
     },
-    {   "id": "7",
+    {   "id": "8",
         "titulo": "A Little Respect",
         "álbum": "The Innocents",
         "año": "1988",
@@ -89,7 +102,7 @@
         "wikipedia": "https://en.wikipedia.org/wiki/A_Little_Respect",
         "popularitat":"5"
     },
-    {   "id": "8",
+    {   "id": "9",
         "titulo": "Nobody's Diary",
         "álbum": "Saturday Night Fever",
         "año": "1983",
@@ -102,7 +115,7 @@
         "wikipedia": "https://es.wikipedia.org/wiki/Nobody%27s_Diary",
         "popularitat":"5"
     },
-    {   "id": "9",
+    {   "id": "10",
         "titulo": "Hot Water",
         "álbum": "Sirens Tour Live 2015",
         "año": "1984",
@@ -114,7 +127,7 @@
         "video": "https://www.youtube.com/embed/g88dvPMEDVA",
         "wikipedia": "https://en.wikipedia.org/wiki/Hot_Water_(song)"
 },
-    {   "id": "10",
+    {   "id": "11",
         "titulo": "Viva la vida",
         "álbum": "Sirens Tour Live 2015",
         "año": "2008",
@@ -125,6 +138,19 @@
         "categoria": ["6","4"],
         "video": "https://www.youtube.com/embed/dvgZkm1xWPE",
         "wikipedia": "https://en.wikipedia.org/wiki/Hot_Water_(song)",
+        "popularitat":"5"
+    },
+    {   "id": "12",
+        "titulo": "Something about you",
+        "álbum": "World MAchine",
+        "año": "1985",
+        "grupo": "Level 42",
+        "descripcion": "Que més dir sobre aquesta balada, indispensable.",
+        "webGrupo": "https://level42.com/" ,
+        "creditos": "Mike Lindup, Phil Gould, Mark King, Rowland Gould, Wally Badarou",
+        "categoria": ["6","1"],
+        "video": "https://www.youtube.com/embed/zpdQQoc-gkk",
+        "wikipedia": "https://en.wikipedia.org/wiki/Something_About_You_(Level_42_song)",
         "popularitat":"5"
     }
 
