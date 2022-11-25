@@ -218,5 +218,73 @@
         "fotoGrup": "erasure.jpg",
         "web": "erasure.com",
         "credits": "wikipedia"
-    }   
+    },
+    {
+        "id":"9",
+        "nom": "Roosevelt",
+        "components": ["Marius Lauber"],
+        "estil": "Synth-pop, indie electronic, hypnagogic pop",
+        "anyFundacio": "2013",
+        "historia": "Su primer proyecto fue Beat!Beat!Beat!, una banda adolescente indie donde él era el baterista. Años más tarde la banda se separó y él se convirtió en solista.<br><br>Luego lanzó su aclamado EP debut 'Elliot' en 2013. El sencillo principal 'Elliot' fue nombrado como 'Best New Track' de Pitchfork . Roosevelt luego lanzó la cara doble A 'Night Moves/Hold On' en 2015 en Greco-Roman que continuó con un cálido sonido synth-pop con influencia balear .<br><br>En abril de 2016, anunció su álbum debut homónimo, cuyo lanzamiento está previsto para el 19 de agosto de 2016, en Greco-Roman/City Slang, con el vídeo de los temas 'Colours' y 'Moving On'. <br><br>Ha remezclado a artistas como Glass Animals , Jax Jones , Truls, Sundara Karma , Luka Vasta y Kakkmaddafakka , y en la gira ha apoyado a Hot Chip , Totally Enormous Extinct Dinosaurs y Crystal Fighters.<br><br>En junio de 2018, anunció un segundo álbum, Young Romance . Fue lanzado el 28 de septiembre de 2018. El primer sencillo de este álbum, 'Under the Sun', fue lanzado el 27 de junio de 2018.<br><br>En marzo de 2019, lanzó 'Falling Back' y una versión de ' Everywhere ' de Fleetwood Mac en W Records. Al año siguiente, 'Everywhere' apareció en We Bare Bears: The Movie .<br><br>El 10 de junio de 2020, Roosevelt lanzó el sencillo Sign , que fue el primer material original desde su segundo álbum Young Romance . Roosevelt lanzó otros cuatro sencillos (Echoes, Feels Right, Strangers & Lovers) antes de su tercer álbum de estudio, Polydans, que se lanzó el 26 de febrero de 2021.",
+        "discografia": [
+            {"any": "2016", "album": "Roosevelt"},
+            {"any": "2018", "album": "Young Romance"},
+            {"any": "2021", "album": "Polydans"}
+        ],
+        "fotoGrup": "roosevelt.jpg",
+        "web": "iammroosevelt.com",
+        "credits": "wikipedia"
+    },
+    {
+        "id":"10",
+        "nom": "Dire Straits",
+        "components": ["Mark Knopfler","John Illsley","Alan Clark","Guy Fletcher","David Knopfler","Pick Withers"],
+        "estil": "Roots rock, Blues rock, Rock and roll, Pop rock",
+        "anyFundacio": "1977",
+        "historia": "Dire Straits (pronunciación: /daɪr streɪts/) fue una banda de rock británica formada en Londres en 1977 por Mark Knopfler (voz principal y guitarra principal), David Knopfler (guitarra rítmica y coros), John Illsley (bajo y coros) y Pick Withers (batería y percusión), estando activos hasta el año 1995. Dire Straits es considerado como uno de los grupos musicales más exitosos de la historia de la música rock.<br><br>Su primer sencillo, 'Sultans of Swing', de su álbum debut homónimo de 1978, llegó a los diez primeros en las listas de éxitos del Reino Unido y los Estados Unidos. Le siguieron éxitos como 'Romeo and Juliet' (1981), 'Private Investigations' (1982), 'Twisting by the Pool' (1983), 'Money for Nothing' (1985) y 'Walk of Life' (1985). Su álbum de mayor éxito comercial, Brothers in Arms (1985), ha vendido más de 30 millones de copias; fue el primer álbum en vender un millón de copias en disco compacto y es el octavo álbum más vendido en la historia del Reino Unido. Según el Guinness Book of British Hit Albums, Dire Straits ha pasado más de 1100 semanas en la lista de álbumes del Reino Unido, la quinta mayor cantidad de todos los tiempos.<br><br>El sonido de Dire Straits —cuyo nombre, según el mismo Mark Knopfler, en inglés significa «situación desesperada» o «estar en apuros»— se basa en varias influencias, incluyendo jazz, folk y country y el blues rock de J. J. Cale y Eric Clapton.Su sonido despojado contrastaba con el punk rock y demostraba una influencia del roots rock que surgió del pub rock. Hubo varios cambios en el personal, con Mark Knopfler e Illsley siendo los únicos miembros consistentes. Después de disolverse en 1995, Knopfler lanzó su carrera en solitario a tiempo completo. Dire Straits ganó cuatro premios Grammy, tres Brit Awards (Mejor grupo británico dos veces), dos MTV Video Music Awards y varios otros premios. Fueron incluidos en el Salón de la Fama del Rock and Roll en 2018.",
+        "discografia": [
+            {"any":"1978", "album": "Dire Straits"},
+            {"any":"1979", "album": "Communiqué"},
+            {"any":"1980", "album": "Making Movies"},
+            {"any":"1982", "album": "Love Over Gold"},
+            {"any":"1985", "album": "Brothers in Arms"},
+            {"any":"1991", "album": "On Every Street"}
+        ],
+        "fotoGrup": "direstraits.jpg",
+        "web": "direstraits.com",
+        "credits": "wikipedia"
+    },
+    {
+        "id":"11",
+        "nom": "Talk Talk",
+        "components": ["Mark Hollis","Paul Webb","Lee Harris"],
+        "estil": "Post-rock, Art rock,Synth pop, Art pop, New romantic, New wave",
+        "anyFundacio": "1981",
+        "historia": "Talk Talk fue una banda inglesa de rock formada en 1981 en Londres, y disuelta en 1991. En el comienzo de su carrera el grupo fue encasillado dentro del estilo denominado synth pop. Sin embargo, el grupo siguió luego una línea más experimental, y sus últimos álbumes fueron considerados por la crítica como precursores del post-rock.1​ A pesar de que los críticos recibieron favorablemente a los últimos álbumes de la banda, los mismos tuvieron poco éxito en el mercado, lo que contribuyó a una disputa entre la banda y la compañía discográfica EMI.<br><br>Los integrantes del grupo fueron el cantante y multi-instrumentista Mark Hollis, el bajista y corista Paul Webb, el baterista Lee Harris y el tecladista Simon Brenner. El productor Tim Friese-Greene desempeñó un papel importante en la evolución artística del grupo, además de tocar sintetizadores y colaborar en la composición.",
+        "discografia": [
+            {"album": "The Party's Over", "any":"1982"},
+            {"album": "It's My Life", "any":"1984"},
+            {"album": "The Colour of Spring", "any":"1986"},
+            {"album": "Spirit of Eden", "any":"1988"},
+            {"album": "Laughing Stock", "any":"1991"}
+        ],
+        "fotoGrup": "talktalk.jpg",
+        "web": "#",
+        "credits": "wikipedia"
+    },
+    {
+        "id":"12",
+        "nom": "Yazoo",
+        "components": ["Vince Clarke","Alison Moyet"],
+        "estil": "Synth pop",
+        "anyFundacio": "1981",
+        "historia": "Yazoo (conocidos como Yaz en Estados Unidos, por razones legales que involucraban a la compañía discográfica Yazoo Records) fue un dúo británico de synth pop originarios de Basildon, Essex, Inglaterra, cuya carrera tuvo gran éxito comercial al principio de los años 1980. Aunque no tuvieron la misma suerte en Estados Unidos, Yazoo alcanzó tres Top 10 en el UK Singles a inicios de esa década<br><br>Se formó a finales de 1981 por el excompositor de Depeche Mode, Vince Clarke (sintetizador) y por Alison Moyet (vocalista).",
+        "discografia": [
+            {"any": "1982","album":"Upstairs at Eric's"},
+            {"any": "1983","album":"You and Me Both"}
+        ],
+        "fotoGrup": "yazoo.jpg",
+        "web": "#",
+        "credits": "wikipedia"
+    }                      
 ]
