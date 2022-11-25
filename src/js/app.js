@@ -11,10 +11,16 @@ categories.forEach(categoria => {
   slide.style.backgroundPosition = 'center';
   let link = document.createElement('a');
   link.href = `./categoria.html?cat=${categoria.id}`;
+<<<<<<< HEAD
   link.innerHTML = `<H1>${categoria.titulo}</H1>`
   //let img = document.createElement('img');
   //img.src = `img/slide/${categoria.img}`;
   //link.append(img);
+=======
+  let img = document.createElement('img');
+  img.src = `img/slide/${categoria.img}`;
+  link.append(img);
+>>>>>>> 026f66228564080013aae283528a5a53803e87e3
 
   slide.append(link);
   containerSlide.append(slide);
