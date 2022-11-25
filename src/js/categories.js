@@ -1,14 +1,14 @@
 import categories from '../data/categories.json' /*assert {type: "json"}*/;
 import songs from '../data/songs.json' /*assert {type: "json"}*/;
 
-console.log(categories[0]);
-
-
+//Recuperem el container de les categories
 const cat = document.getElementById("containerCat");
 
+//Farem una llista amb les diferents categories
 const llistaCat = document.createElement('ul');
 llistaCat.className = 'llista';
 
+//Comencem el bucle de les categories
 categories.forEach(categoria => {
 
     let img = document.createElement('img');
@@ -23,6 +23,11 @@ categories.forEach(categoria => {
     let puntCat = document.createElement('li');
     puntCat.id = categoria.id;
     puntCat.className = 'puntCat';
+
+    //Donem d'alta un escoltador d'events, justament al fer clic sobre la imatge
+    //de la categoria
+    //Una vegada es produeix l'event cridem a la funció 'callback' procesaCat
+    //on llistarem les cançons de la categoria triada.
     img.addEventListener('click', procesaCat);
     puntCat.append(img);
     puntCat.append(titolPuntCat);
@@ -54,11 +59,14 @@ function procesaCat(event){
     const espaiSongs = document.getElementById('llistaSongs');
     const llista = document.createElement('ul');
     llista.className = "containerSongs";
+
+    //Recuperem l'id del contenidor pare de la imatge
     const categoria = event.target.parentElement.id;
-    //console.log(categoria);
-    //console.log(songs);
+    
+    //Aquí està la màgia, fem un filtre de qualsevol de les categories d'una canço 
+    //que coincideixi amb la categoria activa.
+    //Recordem que el camp categories és un array de més d'una categoria.
     const songsCat = songs.filter(x => x.categoria.some(xx => xx === categoria));
-    console.log(songsCat);
     
     //Bucle per llistar les cançons filtrades per categoria
     songsCat.forEach(song =>{
@@ -101,5 +109,4 @@ function procesaCat(event){
     espaiSongs.append(llista);
 }
 
-//cat.append(titol);
 cat.append(llistaCat);

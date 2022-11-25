@@ -244,7 +244,11 @@ footer div {
 }
 
 /*Mòbil ------------*/
+/* Aquí podem veure els canvis per pantalles petites, si hem utilitzat displays flex podem canviar
+la direcció de files en pantalles grans a columnes per a pantalles petites
+altres retocs serien treure els paddings i marges per aprofitar millor els mòbils */
 
+/*pantalles fins a 700px*/
 @media screen and (max-width: 700px) {
     header{
         flex-direction: column;

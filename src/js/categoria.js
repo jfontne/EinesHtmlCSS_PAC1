@@ -1,22 +1,24 @@
 import categories from '../data/categories.json' /*assert {type: "json"}*/;
 import songs from '../data/songs.json' /*assert {type: "json"}*/;
 
+//recuperem els paràmetres enviats a la web
 const valores = window.location.search;
-console.log(valores);
 
-//Creamos la instancia
+
+//Aquí ja tenim els paràmetres recuperats
 const urlParams = new URLSearchParams(valores);
 
-//Accedemos a los valores
+//Accedim al paràmetre "cat"
 var IdCat = urlParams.get('cat');
-console.log(IdCat);
+
+//Filtrem la categoria per possar-hi el títol i la imatge de fons de la web
 var categoria = categories.filter(x => x.id === IdCat);
-console.log(categoria);
+
 //canvi imatge de fons canviant la propietat del CSS
 let element = document.getElementById('cos');
 element.style.backgroundImage = `url('img/${categoria[0].img}'`;
 
-
+//Canviem el títol de la capçalera
 const titolCat = document.getElementById('titolCap');
 titolCat.innerText = categoria[0].titulo;
 

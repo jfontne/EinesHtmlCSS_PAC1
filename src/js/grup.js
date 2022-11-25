@@ -4,20 +4,20 @@ import songs from '../data/songs.json' /*assert {type: "json"};*/
 const valores = window.location.search;
 console.log(valores);
 
-//Creamos la instancia
+//recuperem els paràmetres enviats a la web
 const urlParams = new URLSearchParams(valores);
 
-//Accedemos a los valores
+//Aquí ja tenim els paràmetres recuperats
 var grupSel = urlParams.get('grup');
-console.log(grupSel);
+
 var grup = grups.filter(x => x.nom === grupSel);
-console.log(grup);
+
 //titol
 let titol = document.getElementById('titolCap');
 titol.innerText = grup[0].nom;
 //imatge
 let imatge = document.getElementById('fotoGrup');
-console.log(`./img/grups/${grup[0].fotoGrup}`);
+
 imatge.src=`./img/grups/${grup[0].fotoGrup}`;
 imatge.alt = grup[0].nom;
 
