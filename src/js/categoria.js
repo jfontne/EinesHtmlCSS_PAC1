@@ -54,7 +54,7 @@ llistaCat.className = 'llista';
         titolSong.className = "titolSong"
         titolSong.innerText = song.titulo;
         let grupSong = document.createElement('a');
-        grupSong.href = `./grup.html?grup=${song.grupo}`
+        grupSong.href = `./grup.html?grup=${song.grupo}` 
         grupSong.innerText = song.grupo;
         let dadesSong = document.createElement('ul');
         let creditos = `<li><b>Autors:</b> ${song.creditos}</li>`
