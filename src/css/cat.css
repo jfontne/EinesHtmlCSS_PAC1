@@ -161,21 +161,6 @@ main{
     cursor: pointer;
 }
 
-/* .descripcio {
-    text-align: left;
-    font-weight: 800;
-    font-size: 14pt;
-    padding-bottom: 0;
-    margin-bottom: 0;
-} */
-
-/* .categoria {
-    padding-top: 0;
-    margin-top: 0;
-    text-align: center;
-    text-decoration-style: double;
-} */
-
 .containerSongs {
     display: flex;
     flex-direction: row;
@@ -193,6 +178,12 @@ main{
     display: flex;
     flex-direction: column;
     width: 350px;
+}
+
+.songGrup{
+    font-size: 1rem;
+    color: aqua;
+    font-weight: bold;
 }
 
 .song .videoSong {
@@ -229,7 +220,7 @@ main{
 
 .titolSong {
     color: white;
-    font-size: 1rem;
+    font-size: 1.2rem;
     text-align: left;
 }
 

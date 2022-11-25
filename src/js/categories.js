@@ -77,6 +77,7 @@ function procesaCat(event){
         let grupSong = document.createElement('a');
         grupSong.href = `./grup.html?grup=${song.grupo}`
         grupSong.innerText = song.grupo;
+        grupSong.className="songGrup";
        
         let dadesSong = document.createElement('ul');
         let creditos = `<li><b>Autors:</b> ${song.creditos}</li>`
