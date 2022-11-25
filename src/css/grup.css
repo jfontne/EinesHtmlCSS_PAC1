@@ -278,6 +278,10 @@ footer div {
         margin: 0;
     }
 
+    #fotoGrup{
+        width: 100%;
+        box-shadow: 0 8px 20px 5px rgba(0, 0, 0, 0.15);
+    }
     #textHistoria{
         padding: 0;
     }
