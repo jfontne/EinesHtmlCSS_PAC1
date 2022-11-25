@@ -7,12 +7,14 @@ categories.forEach(categoria => {
   
   let slide = document.createElement('div');
   slide.className = "swiper-slide";
-
+  slide.style.backgroundImage = `url('img/${categoria.img}'`;
+  slide.style.backgroundPosition = 'center';
   let link = document.createElement('a');
-  link.href = `categoria.html?cat=${categoria.id}`;
-  let img = document.createElement('img');
-  img.src = `img/slide/${categoria.img}`;
-  link.append(img);
+  link.href = `./categoria.html?cat=${categoria.id}`;
+  link.innerHTML = `<H1>${categoria.titulo}</H1>`
+  //let img = document.createElement('img');
+  //img.src = `img/slide/${categoria.img}`;
+  //link.append(img);
 
   slide.append(link);
   containerSlide.append(slide);

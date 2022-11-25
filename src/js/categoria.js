@@ -9,11 +9,12 @@ const urlParams = new URLSearchParams(valores);
 
 //Accedemos a los valores
 var IdCat = urlParams.get('cat');
+console.log(IdCat);
 var categoria = categories.filter(x => x.id === IdCat);
-
+console.log(categoria);
 //canvi imatge de fons canviant la propietat del CSS
 let element = document.getElementById('cos');
-element.style.backgroundImage = `url(img/${categoria[0].img}`;
+element.style.backgroundImage = `url('img/${categoria[0].img}'`;
 
 
 const titolCat = document.getElementById('titolCap');
@@ -51,8 +52,10 @@ llistaCat.className = 'llista';
         dades.className = "dadesSong";
         let titolSong = document.createElement('H1');
         titolSong.className = "titolSong"
-        titolSong.innerText = `${song.grupo} - ${song.titulo}`;
-       
+        titolSong.innerText = song.titulo;
+        let grupSong = document.createElement('a');
+        grupSong.href = `./grup.html?grup=${song.grupo}`
+        grupSong.innerText = song.grupo;
         let dadesSong = document.createElement('ul');
         let creditos = `<li><b>Autors:</b> ${song.creditos}</li>`
         let album = `<li><b>Àlbum:</b> ${song.álbum} (${song.año})</li>`
@@ -64,6 +67,7 @@ llistaCat.className = 'llista';
         dadesSong.innerHTML = htmlDades;
         
         dades.append(titolSong);
+        dades.append(grupSong);
         dades.append(dadesSong);
         
         single.append(video);

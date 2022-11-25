@@ -1,5 +1,5 @@
 {
-  "name": "Music",
+  "name": "music",
   "source": "src/index.html",
   "browserslist": "> 1%, last 5 versions, not dead",
   "version": "1.0.0",
@@ -20,6 +20,6 @@
   "license": "ISC",
   "dependencies": {
     "libheif-js": "^1.13.0",
-    "swiper": "^8.4.4"
+    "swiper": "^8.4.5"
   }
 }

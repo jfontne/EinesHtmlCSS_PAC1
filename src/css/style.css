@@ -1,16 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
 html {
     min-height: 100%;
     position: relative;
+  }
+  h1{
+    font-family: 'Russo One', sans-serif;
   }
 
 .general{
     display: flex;
     flex-direction: column;
     margin: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif; 
+    /* font-family: 'Russo One', sans-serif; */
     background-color: black;
     background-image: url('../img/fonsWeb.jpg');
 }
@@ -59,16 +64,49 @@ a{
     text-decoration-line: none;
 }
 
-main{
+main {
     margin-top: 80px;
     margin-bottom: 150px;
+} 
+
+#presentacio{
+    margin-top: 20px;
+    border-color: gray;
+    border-style: solid;
+    border-radius: 5px;
+    background-color: #555555;
+    opacity: 0.8;
 }
+
+#grups{
+    margin-top: 20px;
+    border-color: gray;
+    border-style: solid;
+    border-radius: 5px;
+    background-color: #555555;
+    opacity: 0.8;
+}
+
 
 /*swipper*/
 .swiper {
-    max-height: 50vh;
-  
+    display: flex;
+    height: 50vh;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
   }
+
+  .swiper-wrapper{
+    height: 50vh;
+}
+
+.swiper-wrapper h1{
+    font-size: 4rem;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+}
+
 .swiper-button-next,
 .swiper-button-prev {
     outline: none;
@@ -79,10 +117,16 @@ main{
   }
   .swiper-slide{
     color: black;
+    width: 100%;
   }
 
-  .swiper-slide img{
+  /* .swiper-slide img{
     width: 100%;
+  } */
+
+  #presentacio{
+    font-family: 'Bree Serif', serif;
+    font-size: 1.2rem;
   }
 
 .contingut{
@@ -193,20 +237,22 @@ footer div{
 @media screen and (max-width: 750px) {
     header{
         flex-direction: column;
+        height: 150px;
+        align-items: center;
     }
 
-    #barraMenu{
-        flex-direction: column;
-    }
+   
     #menu{
         flex-direction: row;
+        padding: 0;
+        margin: 0;
     }
     main{
-        margin-bottom: 150px;
+        margin-top: 140px;
+        margin-bottom: 250px;
     }
     .swiper {
-        margin-top: 200px;
-        max-height: 70vh;
+        height: 50vh;
       
       }
       .swiper-button-next,
@@ -225,13 +271,17 @@ footer div{
         width: 100%;
       }
       .contingut{
+        text-align: center;
         font-size: 14px;
+        width: 100%;
+        padding: 0;
       }
-
-    #containerCat{
-        margin-top: 150px;
-        margin-bottom: 250px;
+      .swiper-wrapper h1{
+        font-size: 3rem;
+        text-align: center;
+        text-shadow: 1px 1px 2px black;
     }
+
     footer{
         flex-direction: column;
     }

@@ -73,9 +73,13 @@ function procesaCat(event){
         video.innerHTML = `<iframe src="${song.video}" title="${song.titulo}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
         let dades = document.createElement('div');
         dades.className = "dadesSong";
+
         let titolSong = document.createElement('H1');
         titolSong.className = "titolSong"
-        titolSong.innerText = `${song.grupo} - ${song.titulo}`;
+        titolSong.innerText = song.titulo;
+        let grupSong = document.createElement('a');
+        grupSong.href = `./grup.html?grup=${song.grupo}`
+        grupSong.innerText = song.grupo;
        
         let dadesSong = document.createElement('ul');
         let creditos = `<li><b>Autors:</b> ${song.creditos}</li>`
@@ -88,6 +92,7 @@ function procesaCat(event){
         dadesSong.innerHTML = htmlDades;
         
         dades.append(titolSong);
+        dades.append(grupSong);
         dades.append(dadesSong);
         
         single.append(video);

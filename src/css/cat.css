@@ -1,10 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 html {
     min-height: 100%;
     position: relative;
 }
+
+a{
+    color: white;
+    text-decoration-line: none;
+}
+
+h1{
+    font-family: 'Russo One', sans-serif;
+  }
 
 .general {
     display: flex;
@@ -231,24 +240,23 @@ footer div {
 /*Mòbil ------------*/
 
 @media screen and (max-width: 700px) {
-    header {
+    header{
         flex-direction: column;
-        z-index: 10;
+        height: 150px;
+        align-items: center;
     }
 
-    #barraMenu {
-        flex-direction: column;
-    }
-
-    #menu {
+   
+    #menu{
         flex-direction: row;
+        padding: 0;
+        margin: 0;
     }
-
+    
     #containerCat {
         margin: 0;
         flex-direction: row;
         justify-content: center;
-        margin-top: 200px;
         margin-bottom: 0;
         width: 100%;
     }
@@ -274,6 +282,7 @@ footer div {
     }
 
     main{
+        margin-top: 150px;
         margin-bottom: 250px;
     }
 
