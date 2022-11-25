@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
 html {
     min-height: 100%;
     position: relative;
@@ -56,6 +57,8 @@ header{
     padding-left: 10px;
     padding-right: 10px;
 }
+
+/* Tractament dels links dins de la pàgina */
 a{
     color: white;
     text-decoration-line: none;
@@ -67,6 +70,7 @@ a:hover{
 .opcioActiva{
     color: aqua;
 }
+
 
 main {
     margin-top: 80px;
@@ -146,10 +150,6 @@ main {
     color: black;
     width: 100%;
   }
-
-  /* .swiper-slide img{
-    width: 100%;
-  } */
 
   #presentacio{
     font-family: 'Bree Serif', serif;
