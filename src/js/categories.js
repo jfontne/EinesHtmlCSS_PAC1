@@ -6,10 +6,6 @@ console.log(categories[0]);
 
 const cat = document.getElementById("containerCat");
 
-//const titol = document.createElement('H1');
-//titol.innerText= "CATEGORIES";
-
-
 const llistaCat = document.createElement('ul');
 llistaCat.className = 'llista';
 
@@ -18,6 +14,7 @@ categories.forEach(categoria => {
     let img = document.createElement('img');
     img.src = `img/${categoria.img}`;
     img.className = 'miniatura';
+    img.alt = categoria.titulo;
     
     let titolPuntCat = document.createElement('H1');
     titolPuntCat.innerText = categoria.titulo;

@@ -23,6 +23,13 @@ a{
     text-decoration-line: none;
 }
 
+a:hover{
+    color: #888888;
+}
+.opcioActiva{
+    color: aqua;
+}
+
 .general {
    background-color: black;
     display: flex;
@@ -255,18 +262,22 @@ footer div {
         flex-direction: column;
         height: 150px;
         align-items: center;
+        justify-content: stretch;
     }
 
+   
+    #titolCap{
+        color: white;
+        padding: 0px;
+        text-transform: uppercase;
+    }
    
     #menu{
         flex-direction: row;
         padding: 0;
         margin: 0;
     }
-
-    #fotoGrup{
-        width: 100%;
-    }
+    
     #containerCat {
         margin: 0;
         flex-direction: row;
@@ -292,7 +303,8 @@ footer div {
 
     .miniatura{
         width: 90%;
-        height: auto;
+        height: 100px;
+        object-fit: cover;
     }
 
     main{
@@ -302,6 +314,5 @@ footer div {
 
     footer {
         flex-direction: column;
-        
     }
 }

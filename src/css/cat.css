@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
 html {
     min-height: 100%;
     position: relative;
@@ -9,6 +12,13 @@ html {
 a{
     color: white;
     text-decoration-line: none;
+}
+
+a:hover{
+    color: #888888;
+}
+.opcioActiva{
+    color: aqua;
 }
 
 h1{
@@ -57,7 +67,6 @@ header {
     font-weight: bold;
     display: flex;
     justify-content: center;
-    border-radius: 2px;
 }
 
 #menu {
@@ -94,6 +103,7 @@ main{
 .imgCat {
     max-height: 65vh;
     max-width: 100%;
+    object-fit: cover;
 }
 
 .titolCat {
@@ -143,23 +153,28 @@ main{
     border-radius: 5px;
     height: 100px;
     width: 150px;
+    object-fit: cover;
     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);
 }
 
-.descripcio {
+.miniatura:hover{
+    cursor: pointer;
+}
+
+/* .descripcio {
     text-align: left;
     font-weight: 800;
     font-size: 14pt;
     padding-bottom: 0;
     margin-bottom: 0;
-}
+} */
 
-.categoria {
+/* .categoria {
     padding-top: 0;
     margin-top: 0;
     text-align: center;
     text-decoration-style: double;
-}
+} */
 
 .containerSongs {
     display: flex;
@@ -244,8 +259,15 @@ footer div {
         flex-direction: column;
         height: 150px;
         align-items: center;
+        justify-content: stretch;
     }
 
+   
+    #titolCap{
+        color: white;
+        padding: 0px;
+        text-transform: uppercase;
+    }
    
     #menu{
         flex-direction: row;
@@ -278,7 +300,8 @@ footer div {
 
     .miniatura{
         width: 90%;
-        height: auto;
+        height: 100px;
+        object-fit: cover;
     }
 
     main{

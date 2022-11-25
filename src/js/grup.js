@@ -82,6 +82,8 @@ llistaCat.className = 'llista';
         llista.appendChild(single);
     });
     espaiSongs.append(llista);
+
+//Discografia
 let discografia = document.getElementById('discografia');
 let albums = document.createElement('ul');
 

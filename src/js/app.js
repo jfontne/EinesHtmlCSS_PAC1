@@ -1,5 +1,6 @@
  //dades
  import categories from '../data/categories.json' /*assert {type: "json"}*/;
+ import grups from '../data/grups.json';
 
  const containerSlide = document.getElementById('contenidorSwiper');
 
@@ -7,7 +8,7 @@ categories.forEach(categoria => {
   
   let slide = document.createElement('div');
   slide.className = "swiper-slide";
-  slide.style.backgroundImage = `url('img/${categoria.img}'`;
+  slide.style.backgroundImage = `url('img/${categoria.img}')`;
   slide.style.backgroundPosition = 'center';
   let link = document.createElement('a');
   link.href = `./categoria.html?cat=${categoria.id}`;
@@ -21,8 +22,7 @@ categories.forEach(categoria => {
 
 });
 
-
- // core version + navigation, pagination modules:
+// core version + navigation, pagination modules:
  import Swiper, { Navigation, Pagination } from 'swiper';
 // import Swiper JS
 import Swiper from 'swiper';
@@ -60,3 +60,25 @@ const swiper = new Swiper('.swiper', {
     el: '.swiper-scrollbar',
   },
 });
+
+let containerGrup = document.getElementById('grups');
+grups.forEach(grup =>{
+  let divGrup = document.createElement('div');
+  divGrup.className = "grup";
+  let imgGrup =  document.createElement('img');
+  let linkGrup = document.createElement('a');
+  imgGrup.className = 'imgGrup';
+  imgGrup.src = `img/grups/${grup.fotoGrup}`;
+  imgGrup.alt = grup.nom;
+  linkGrup.href = `grup.html?grup=${grup.nom}`;
+  linkGrup.append(imgGrup);
+  let titolGrup = document.createElement('h1');
+  titolGrup.innerText = grup.nom;
+  divGrup.appendChild(linkGrup);
+  divGrup.appendChild(titolGrup);
+  containerGrup.append(divGrup);
+  
+});
+
+
+//containerGrup.append(ulGrup);

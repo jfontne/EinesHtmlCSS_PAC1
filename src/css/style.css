@@ -15,7 +15,6 @@ html {
     flex-direction: column;
     margin: 0;
     font-family: 'Montserrat', sans-serif; 
-    /* font-family: 'Russo One', sans-serif; */
     background-color: black;
     background-image: url('../img/fonsWeb.jpg');
 }
@@ -25,6 +24,7 @@ header{
     display: flex;
     flex-direction: row;
     position: fixed;
+    height: auto;
     justify-content: space-around;
     align-items: center;
     min-width: 100%;
@@ -33,9 +33,7 @@ header{
     background-color: #333333;
     background-image: url('../img/fonsCap.jpg');
     text-align: center;
-    
     box-shadow: 0 8px 8px 0px rgba(0, 0, 0, 0.15);
-    height: 100px;
 }
 #titolCap{
     color: white;
@@ -47,7 +45,6 @@ header{
     font-weight: bold;
     display: flex;
     justify-content: center;
-    border-radius: 2px;
 }
 #menu{
     list-style: none;
@@ -64,9 +61,16 @@ a{
     text-decoration-line: none;
 }
 
+a:hover{
+    color: #888888;
+}
+.opcioActiva{
+    color: aqua;
+}
+
 main {
     margin-top: 80px;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 } 
 
 #presentacio{
@@ -77,14 +81,37 @@ main {
     background-color: #555555;
     opacity: 0.8;
 }
-
 #grups{
     margin-top: 20px;
-    border-color: gray;
-    border-style: solid;
-    border-radius: 5px;
-    background-color: #555555;
-    opacity: 0.8;
+    margin-bottom: 20px;;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.grup{
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 150px;
+    height: 250px;
+    
+}
+
+.imgGrup{
+    border-radius: 50%;
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+   
+}
+
+.grup h1{
+    font-size: 18pt;
+    color: white;
+    text-align: center;
 }
 
 
@@ -138,8 +165,8 @@ main {
     max-width: 950px;
     color: #888888;
     margin: auto;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 .contingut p{
     font-size: 1.5rem;
@@ -239,8 +266,13 @@ footer div{
         flex-direction: column;
         height: 150px;
         align-items: center;
+        justify-content: stretch;
     }
-
+    #titolCap{
+        color: white;
+        padding: 0px;
+        text-transform: uppercase;
+    }
    
     #menu{
         flex-direction: row;
@@ -248,7 +280,7 @@ footer div{
         margin: 0;
     }
     main{
-        margin-top: 140px;
+        margin-top: 150px;
         margin-bottom: 250px;
     }
     .swiper {
